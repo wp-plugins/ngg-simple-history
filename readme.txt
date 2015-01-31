@@ -39,6 +39,10 @@ The source code is available on [BitBucket](https://bitbucket.org/niknetniko/ngg
 
 Feel free to contribute.
 
+#### Credits
+
+The plugin icon was adapted from an icon made by [Freepik](http://www.freepik.com) from [www.flaticon.com](http://www.flaticon.com) is licensed under [Creative Commons BY 3.0](http://creativecommons.org/licenses/by/3.0/).
+
 == Changelog ==
 
 = 1.0.0 =
