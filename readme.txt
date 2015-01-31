@@ -5,11 +5,11 @@ Requires at least: 3.7.0
 Tested up to: 4.1
 Stable tag: 1.0.0
 
-Add Simple History integration for NextCellent (and soon NextGEN).
+Add Simple History integration for NextCellent.
 
 == Description ==
 
-NGG Simple History logs events related to NextCellent/NextGEN in the [Simple History](https://wordpress.org/plugins/simple-history/) plugin.
+NGG Simple History logs events related to NextCellent in the [Simple History](https://wordpress.org/plugins/simple-history/) plugin.
 
 Currently, it logs following events:
 
@@ -24,6 +24,8 @@ Currently, it logs following events:
 * Updating the NextCellent options
 * Deleting images
 * Updating images
+
+Note: this only works with NextCellent Gallery, not with NextGEN Gallery.
 
 #### Translations/Languages
 
