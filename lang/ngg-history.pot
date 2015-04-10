@@ -1,0 +1,1447 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NextCellent\n"
+"POT-Creation-Date: 2015-01-23 21:12+0100\n"
+"PO-Revision-Date: 2015-01-23 21:13+0100\n"
+"Last-Translator: Niko Strijbol <strijbol.niko@gmail.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-KeywordsList: _n;__;_e;esc_attr_e;esc_html_e\n"
+"X-Poedit-Basepath: ./\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../loggers/NextCellentLogger.php:21
+msgid "Logs events from NextCellent"
+msgstr ""
+
+#: ../loggers/NextCellentLogger.php:24
+msgid "Created gallery \"{gallery_title}\""
+msgstr ""
+
+#: ../loggers/NextCellentLogger.php:25
+msgid "Updated gallery \"{gallery_title}\""
+msgstr ""
+
+#: ../loggers/NextCellentLogger.php:26 ../loggers/NextCellentLogger.php:167
+msgid "Deleted gallery #{gallery_id}"
+msgstr ""
+
+#: ../loggers/NextCellentLogger.php:27
+msgid "Added a new page to gallery \"{gallery_title}\""
+msgstr ""
+
+#: ../loggers/NextCellentLogger.php:28
+msgid "Added {image_count} image(s) to gallery \"{gallery_title}\""
+msgstr ""
+
+#: ../loggers/NextCellentLogger.php:29
+msgid "Added album \"{album_title}\" (# {album_id})"
+msgstr ""
+
+#: ../loggers/NextCellentLogger.php:30
+msgid "Updated album \"{album_title}\" (# {album_id})"
+msgstr ""
+
+#: ../loggers/NextCellentLogger.php:31
+msgid "Deleted album #{album_id}"
+msgstr ""
+
+#: ../loggers/NextCellentLogger.php:32 ../loggers/NextCellentLogger.php:163
+msgid "Updated NextCellent options"
+msgstr ""
+
+#: ../loggers/NextCellentLogger.php:33 ../loggers/NextCellentLogger.php:171
+msgid "Deleted image #{image_id}"
+msgstr ""
+
+#: ../loggers/NextCellentLogger.php:34
+msgid "Updated image {file_name} (gallery #{gallery_id})"
+msgstr ""
+
+#: ../loggers/NextCellentLogger.php:122
+msgid "Created gallery \"<a href=\"{gallery_link}\">{gallery_title}</a>\""
+msgstr ""
+
+#: ../loggers/NextCellentLogger.php:129
+msgid ""
+"Added {image_count} image(s) to gallery \"<a href="
+"\"{gallery_link}\">{gallery_title}</a>\""
+msgstr ""
+
+#: ../loggers/NextCellentLogger.php:136
+msgid "Updated gallery \"<a href=\"{gallery_link}\">{gallery_title}</a>\""
+msgstr ""
+
+#: ../loggers/NextCellentLogger.php:143
+msgid ""
+"Added new page to gallery \"<a href=\"{gallery_link}\">{gallery_title}</a>\""
+msgstr ""
+
+#: ../loggers/NextCellentLogger.php:149
+msgid ""
+"Added album \"<a href=\"{album_link}\">{album_title}</a>\" (# {album_id})"
+msgstr ""
+
+#: ../loggers/NextCellentLogger.php:155
+msgid ""
+"Updated album \"<a href=\"{album_link}\">{album_title}</a>\" (# {album_id})"
+msgstr ""
+
+#: ../loggers/NextCellentLogger.php:159
+msgid "Deleted album # {album_id}"
+msgstr ""
+
+#: ../loggers/NextCellentLogger.php:178
+msgid ""
+"Updated image <a href=\"{url}\">{file_name}</a> (gallery <a href="
+"\"{gallery_link}\">{gallery_title}</a>)"
+msgstr ""
+
+#: ../nextcellent-simplehistory.php:73
+#, php-format
+msgid "NGG History requires PHP 5.3 or later (you have version %s)."
+msgstr ""
+
+#: ../nextcellent-simplehistory.php:89
+msgid "NGG History requires the SimpleHistory plugin in order to work."
+msgstr ""
+
+#, fuzzy
+#~ msgid "About"
+#~ msgstr "Informatie"
+
+#, fuzzy
+#~ msgid "for their great documented code"
+#~ msgstr "Kopieer code naar het clipboard"
+
+#, fuzzy
+#~ msgid "for the Gallery Icon"
+#~ msgstr "Exporteer Gallerij"
+
+#, fuzzy
+#~ msgid "Add Gallery / Images"
+#~ msgstr "Voeg URL toe"
+
+#, fuzzy
+#~ msgid "Image Files"
+#~ msgstr "Bestanden"
+
+#, fuzzy
+#~ msgid "remove"
+#~ msgstr "Verwijder overgeslagen files en fouten uit de ljist"
+
+#, fuzzy
+#~ msgid "Upload images"
+#~ msgstr "Gevonden Afbeeldingen:"
+
+#, fuzzy
+#~ msgid "New gallery"
+#~ msgstr "Exporteer Gallerij"
+
+#, fuzzy
+#~ msgid "Images"
+#~ msgstr "Scan URL op afbeeldingen"
+
+#, fuzzy
+#~ msgid "ZIP file"
+#~ msgstr "Bestand     : "
+
+#, fuzzy
+#~ msgid "Import folder"
+#~ msgstr "Wachtrijmap:"
+
+#, fuzzy
+#~ msgid "Add a new gallery"
+#~ msgstr "Voeg URL toe"
+
+#, fuzzy
+#~ msgid "Name"
+#~ msgstr "URL/Filename:"
+
+#, fuzzy
+#~ msgid "Add gallery"
+#~ msgstr "Voeg toe aan Wachtrij"
+
+#, fuzzy
+#~ msgid "Upload a ZIP File"
+#~ msgstr "Bestand     : "
+
+#, fuzzy
+#~ msgid "Select ZIP file"
+#~ msgstr "Bestand     : "
+
+#, fuzzy
+#~ msgid "or enter URL"
+#~ msgstr "URL             : "
+
+#, fuzzy
+#~ msgid "a new gallery"
+#~ msgstr "Exporteer Gallerij"
+
+#, fuzzy
+#~ msgid "Start upload"
+#~ msgstr "Starttijd          :"
+
+#, fuzzy
+#~ msgid "Import an image folder"
+#~ msgstr "Downloadmap      :"
+
+#, fuzzy
+#~ msgid "Import from server:"
+#~ msgstr "Verwijder overgeslagen files en fouten uit de ljist"
+
+#, fuzzy
+#~ msgid "Choose gallery"
+#~ msgstr "Exporteer Gallerij"
+
+#, fuzzy
+#~ msgid "Select Files"
+#~ msgstr "Selecteer"
+
+#, fuzzy
+#~ msgid "Use basic uploader"
+#~ msgstr "dagen om BID te gebruiken."
+
+#, fuzzy
+#~ msgid "Advanced uploading"
+#~ msgstr "Geavanceerde Configuratie"
+
+#, fuzzy
+#~ msgid "Use advanced uploader"
+#~ msgstr "Geavanceerde Configuratie"
+
+#, fuzzy
+#~ msgid "Settings"
+#~ msgstr "Instellingen"
+
+#, fuzzy
+#~ msgid "About this Gallery"
+#~ msgstr "Informatie"
+
+#, fuzzy
+#~ msgid "Network settings"
+#~ msgstr "Instellingen"
+
+#, fuzzy
+#~ msgid "Unexpected Error"
+#~ msgstr "Fout laden pagina, fout:"
+
+#, fuzzy
+#~ msgid "HTTP error."
+#~ msgstr "Fout laden pagina, fout:"
+
+#, fuzzy
+#~ msgid "IO error."
+#~ msgstr "Fout"
+
+#, fuzzy
+#~ msgid "Security error."
+#~ msgstr "Fout laden pagina, fout:"
+
+#, fuzzy
+#~ msgid "File canceled."
+#~ msgstr "Bestand     : "
+
+#, fuzzy
+#~ msgid "Upload stopped."
+#~ msgstr "Planner: Wachtrij gestopt"
+
+#, fuzzy
+#~ msgid "Click to Close"
+#~ msgstr "Sluit"
+
+#, fuzzy
+#~ msgid "Translation"
+#~ msgstr "Nederlandse vertaling door © 2008 Harm, The Netherlands."
+
+#, fuzzy
+#~ msgid "Server Settings"
+#~ msgstr "Instellingen"
+
+#, fuzzy
+#~ msgid "Plugin Check"
+#~ msgstr "Check automatisch voor updates"
+
+#, fuzzy
+#~ msgid "Gallery"
+#~ msgstr "Download deze gallerij met Bulk Image Downloader"
+
+#, fuzzy
+#~ msgid "For more information:"
+#~ msgstr "Klik voor meer informatie over \"regular expressions\"."
+
+#, fuzzy
+#~ msgid "Source Code"
+#~ msgstr "Genereer code"
+
+#, fuzzy
+#~ msgid "You are not allowed to be here"
+#~ msgstr "Klik hier om verder te doen in Trialmodus"
+
+#, fuzzy
+#~ msgid "Select album"
+#~ msgstr "Selecteer"
+
+#, fuzzy
+#~ msgid "No album selected"
+#~ msgstr "Verwijder geselecteerde afbeeldingen"
+
+#, fuzzy
+#~ msgid "Update"
+#~ msgstr ""
+#~ "Selecteer aub een andere download map of check en update uw "
+#~ "veiligheidsconfiguratie."
+
+#, fuzzy
+#~ msgid "Delete"
+#~ msgstr "Verwijder de logfile?"
+
+#, fuzzy
+#~ msgid "Add new album"
+#~ msgstr "Voeg toe aan Wachtrij"
+
+#, fuzzy
+#~ msgid "Add"
+#~ msgstr "Voeg URL toe"
+
+#, fuzzy
+#~ msgid "[Show all]"
+#~ msgstr "Alle berichten"
+
+#, fuzzy
+#~ msgid "Select gallery"
+#~ msgstr "Selecteer"
+
+#, fuzzy
+#~ msgid "No album selected!"
+#~ msgstr "Verwijder geselecteerde afbeeldingen"
+
+#, fuzzy
+#~ msgid "Album name:"
+#~ msgstr "Gebruikersnaam:"
+
+#, fuzzy
+#~ msgid "Select a preview image:"
+#~ msgstr "Selecteer Afbeeldingen"
+
+#, fuzzy
+#~ msgid "Page Link to"
+#~ msgstr "Huidige pagina"
+
+#, fuzzy
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#, fuzzy
+#~ msgid "Cancel"
+#~ msgstr "Stoppen"
+
+#, fuzzy
+#~ msgid "Title"
+#~ msgstr "Paginatitel:"
+
+#, fuzzy
+#~ msgid "Page"
+#~ msgstr "Kan webpagina niet downloaden:"
+
+#, fuzzy
+#~ msgid "Thumbnail updated"
+#~ msgstr "Thumbnail"
+
+#, fuzzy
+#~ msgid "Error updating thumbnail"
+#~ msgstr "Register update fout:"
+
+#, fuzzy
+#~ msgid "No valid gallery name!"
+#~ msgstr "Geen geldige callback gevonden."
+
+#, fuzzy
+#~ msgid "Directory"
+#~ msgstr "Deze map bestaat niet."
+
+#, fuzzy
+#~ msgid "Unable to create directory "
+#~ msgstr "Deze map bestaat niet."
+
+#, fuzzy
+#~ msgid "and the thumbnails directory"
+#~ msgstr "Thumbnails"
+
+#, fuzzy
+#~ msgid "Edit gallery"
+#~ msgstr "Exporteer Gallerij"
+
+#, fuzzy
+#~ msgid "Create new thumbnails"
+#~ msgstr "Thumbnails"
+
+#, fuzzy
+#~ msgid "No images were added."
+#~ msgstr "Gevonden Afbeeldingen:"
+
+#, fuzzy
+#~ msgid "File do not exists"
+#~ msgstr "Als het bestand al bestaat in de downloadmap:"
+
+#, fuzzy
+#~ msgid "(Error : Couldn't not find image)"
+#~ msgstr "ERROR: Afbeelding niet gevonden"
+
+#, fuzzy
+#~ msgid "No valid URL path "
+#~ msgstr "URL             : "
+
+#, fuzzy
+#~ msgid "No gallery selected !"
+#~ msgstr "Verwijder geselecteerde afbeeldingen"
+
+#, fuzzy
+#~ msgid "is no valid image file!"
+#~ msgstr "Ongeldige afbeelding"
+
+#, fuzzy
+#~ msgid "Invalid upload. Error Code : "
+#~ msgstr "Ongeldige regular expression opgegeven. Fout op positie"
+
+#, fuzzy
+#~ msgid "The destination gallery does not exist"
+#~ msgstr "Deze map bestaat niet."
+
+#, fuzzy
+#~ msgid "No file was uploaded"
+#~ msgstr "Bestand     : "
+
+#, fuzzy
+#~ msgid "Missing a temporary folder"
+#~ msgstr "Probeer opnieuw verzamelmap:"
+
+#, fuzzy
+#~ msgid "Unknown upload error"
+#~ msgstr "Fout laden pagina, fout:"
+
+#, fuzzy
+#~ msgid "[Show as slideshow]"
+#~ msgstr "Geschiedenis tonen"
+
+#, fuzzy
+#~ msgid "[Show picture list]"
+#~ msgstr "Schoon de Lijst op"
+
+#, fuzzy
+#~ msgid "No images selected"
+#~ msgstr "Verwijder geselecteerde afbeeldingen"
+
+#, fuzzy
+#~ msgid "Resize images"
+#~ msgstr "Gevonden Afbeeldingen:"
+
+#, fuzzy
+#~ msgid "Add new gallery"
+#~ msgstr "Voeg URL toe"
+
+#, fuzzy
+#~ msgid "Search Images"
+#~ msgstr "Gevonden Afbeeldingen:"
+
+#, fuzzy
+#~ msgid "Recover from backup"
+#~ msgstr "Verwijder overgeslagen files en fouten uit de ljist"
+
+#, fuzzy
+#~ msgid "Apply"
+#~ msgstr ""
+#~ "Start IE, klik op Tools | Internet Opties | Geavanceerd, en neem de "
+#~ "instellingen al dan niet over. Klik op Toepassen om de instellingen op te "
+#~ "slaan."
+
+#, fuzzy
+#~ msgid "No entries found"
+#~ msgstr "Afbeelding niet gevonden"
+
+#, fuzzy
+#~ msgid "New Gallery"
+#~ msgstr "Exporteer Gallerij"
+
+#, fuzzy
+#~ msgid "Resize Images to"
+#~ msgstr "Deselecteer Afbeeldingen"
+
+#, fuzzy
+#~ msgid "Page ID"
+#~ msgstr "Kan webpagina niet downloaden:"
+
+#, fuzzy
+#~ msgid "Gallery not found."
+#~ msgstr "Afbeelding niet gevonden"
+
+#, fuzzy
+#~ msgid "Copy image to..."
+#~ msgstr "Kopieer afbeeldingslocatie naar clipboard"
+
+#, fuzzy
+#~ msgid "Move image to..."
+#~ msgstr "Verplaats naar Beneden"
+
+#, fuzzy
+#~ msgid "Add new tags"
+#~ msgstr "Voeg toe aan Wachtrij"
+
+#, fuzzy
+#~ msgid "Delete tags"
+#~ msgstr "Verwijder File"
+
+#, fuzzy
+#~ msgid "Overwrite"
+#~ msgstr "Overschrijven"
+
+#, fuzzy
+#~ msgid "Gallery settings"
+#~ msgstr "Instellingen"
+
+#, fuzzy
+#~ msgid "Click here for more settings"
+#~ msgstr "Klik voor meer informatie over \"regular expressions\"."
+
+#, fuzzy
+#~ msgid "Preview image"
+#~ msgstr "Bekijk Afbeelding..."
+
+#, fuzzy
+#~ msgid "Gallery ID"
+#~ msgstr "Exporteer Gallerij"
+
+#, fuzzy
+#~ msgid "Create new page"
+#~ msgstr "Huidige pagina"
+
+#, fuzzy
+#~ msgid "Main page (No parent)"
+#~ msgstr "Paginatitel      : "
+
+#, fuzzy
+#~ msgid "Add page"
+#~ msgstr "Voeg URL toe"
+
+#, fuzzy
+#~ msgid "Scan folder for new images"
+#~ msgstr "Scan URL op afbeeldingen"
+
+#, fuzzy
+#~ msgid "Save Changes"
+#~ msgstr "Save Wijzigingen"
+
+#, fuzzy
+#~ msgid "Rotate images clockwise"
+#~ msgstr "Scan URL op afbeeldingen"
+
+#, fuzzy
+#~ msgid "Copy to..."
+#~ msgstr "Kopieer code naar het clipboard"
+
+#, fuzzy
+#~ msgid "Move to..."
+#~ msgstr "Verplaats naar Boven"
+
+#, fuzzy
+#~ msgid "Add tags"
+#~ msgstr "Voeg URL toe"
+
+#, fuzzy
+#~ msgid "Overwrite tags"
+#~ msgstr "Overschrijven"
+
+#, fuzzy
+#~ msgid "Sort gallery"
+#~ msgstr "Sorteer Lijst"
+
+#, fuzzy
+#~ msgid "Change Date"
+#~ msgstr "Om deze instellingen te veranderen:"
+
+#, fuzzy
+#~ msgid "View \"%s\""
+#~ msgstr "Bekijk Afbeelding..."
+
+#, fuzzy
+#~ msgid "View"
+#~ msgstr "Bekijk Logfile"
+
+#, fuzzy
+#~ msgid "Meta"
+#~ msgstr ""
+#~ "Dit is potentieel bruikbare metadata die de logger opgeslagen heeft."
+
+#, fuzzy
+#~ msgid "Customize thumbnail"
+#~ msgstr "Thumbnail"
+
+#, fuzzy
+#~ msgid "Publish this image"
+#~ msgstr "Laad afbeelding..."
+
+#, fuzzy
+#~ msgid "Recover \"%s\" ?"
+#~ msgstr "Geschiedenis voor %s"
+
+#, fuzzy
+#~ msgid "Delete \"%s\" ?"
+#~ msgstr "Verwijder de logfile?"
+
+#, fuzzy
+#~ msgid "Alt & title text"
+#~ msgstr "Paginatitel      : "
+
+#, fuzzy
+#~ msgid "Enter the tags"
+#~ msgstr "Voer de registratiecode in:"
+
+#, fuzzy
+#~ msgid "Select the destination gallery:"
+#~ msgstr "Selecteer Afbeeldingen"
+
+#, fuzzy
+#~ msgid "Thumbnail"
+#~ msgstr "Thumbnail"
+
+#, fuzzy
+#~ msgid "Filename"
+#~ msgstr "Bestandsnaam"
+
+#, fuzzy
+#~ msgid "Sort order changed"
+#~ msgstr "Sorteer Lijst"
+
+#, fuzzy
+#~ msgid "Sort Gallery"
+#~ msgstr "Sorteer Lijst"
+
+#, fuzzy
+#~ msgid "Update Sort Order"
+#~ msgstr "Sorteer Lijst"
+
+#, fuzzy
+#~ msgid "Back to gallery"
+#~ msgstr "Exporteer Gallerij"
+
+#, fuzzy
+#~ msgid "Image ID"
+#~ msgstr "Totaal aantal afbeeldingenlinks:"
+
+#, fuzzy
+#~ msgid "Alt/Title text"
+#~ msgstr "Paginatitel:"
+
+#, fuzzy
+#~ msgid "Date/Time"
+#~ msgstr ""
+#~ "Sla afbeeldingen op met originele datum/tijd van de server indien "
+#~ "beschikbaar"
+
+#, fuzzy
+#~ msgid "Gallery deleted successfully "
+#~ msgstr "...alleen als alle afbeeldingen succesvol gedownload zijn"
+
+#, fuzzy
+#~ msgid "Rotate images"
+#~ msgstr "Gevonden Afbeeldingen:"
+
+#, fuzzy
+#~ msgid "Pictures deleted successfully "
+#~ msgstr "...alleen als alle afbeeldingen succesvol gedownload zijn"
+
+#, fuzzy
+#~ msgid "created"
+#~ msgstr "Maak nieuw geheim RSS-adres"
+
+#, fuzzy
+#~ msgid "Published a new post"
+#~ msgstr "Maak nieuw geheim RSS-adres"
+
+#, fuzzy
+#~ msgid "1 item"
+#~ msgstr "+%1$s meer"
+
+#, fuzzy
+#~ msgid "NextCellent Gallery"
+#~ msgstr "Exporteer Gallerij"
+
+#, fuzzy
+#~ msgid "No gallery"
+#~ msgstr "Exporteer Gallerij"
+
+#, fuzzy
+#~ msgid "Select &#187;"
+#~ msgstr "Selecteer"
+
+#, fuzzy
+#~ msgid "Show"
+#~ msgstr "Laat Taak zien"
+
+#, fuzzy
+#~ msgid "Hide"
+#~ msgstr "Verberg Taak"
+
+#, fuzzy
+#~ msgid "Image ID:"
+#~ msgstr "Afbeeldings Informatie"
+
+#, fuzzy
+#~ msgid "None"
+#~ msgstr "(geen)"
+
+#, fuzzy
+#~ msgid "Left"
+#~ msgstr "dagen om BID te gebruiken."
+
+#, fuzzy
+#~ msgid "Right"
+#~ msgstr ""
+#~ "Integreer met Internet Explorer (contextmenu wordt toegevoegd met "
+#~ "rechtermuisklik)"
+
+#, fuzzy
+#~ msgid "Save all changes"
+#~ msgstr "Save Wijzigingen"
+
+#, fuzzy
+#~ msgid "NextCellent Gallery Overview"
+#~ msgstr "Download deze gallerij met Bulk Image Downloader"
+
+#, fuzzy
+#~ msgid "Welcome to NextCellent Gallery !"
+#~ msgstr "Download deze gallerij met Bulk Image Downloader"
+
+#, fuzzy
+#~ msgid "Running..."
+#~ msgstr "Weergave BID Instantie bij deze taak"
+
+#, fuzzy
+#~ msgid "No conflict could be detected"
+#~ msgstr "Kon de map niet aanmaken:"
+
+#, fuzzy
+#~ msgid "Test image function"
+#~ msgstr "Totaal aantal afbeeldingenlinks:"
+
+#, fuzzy
+#~ msgid "The plugin could create images"
+#~ msgstr "Kon de map niet aanmaken:"
+
+#, fuzzy
+#~ msgid "Check theme compatibility"
+#~ msgstr "Check automatisch voor updates"
+
+#, fuzzy
+#~ msgid "Check plugin"
+#~ msgstr "Check automatisch voor updates"
+
+#, fuzzy
+#~ msgid "Loading&#8230;"
+#~ msgstr "Laden…"
+
+#, fuzzy
+#~ msgid "Image"
+#~ msgstr "Totaal aantal afbeeldingenlinks:"
+
+#, fuzzy
+#~ msgid "Storage Space"
+#~ msgstr "Zeer weinig diskruimte"
+
+#, fuzzy
+#~ msgid "Space Allowed"
+#~ msgstr "Zeer weinig diskruimte"
+
+#, fuzzy
+#~ msgid "Space Used"
+#~ msgstr "Zeer weinig diskruimte"
+
+#, fuzzy
+#~ msgid "Reload page"
+#~ msgstr "Paginatitel:"
+
+#, fuzzy
+#~ msgid "Download"
+#~ msgstr "Selecteer a.u.b. een download map."
+
+#, fuzzy
+#~ msgid "Not set"
+#~ msgstr ""
+#~ "Voer in \"netsh interface tcp set global autotuninglevel=disabled"
+#~ "\" (zonder accolades) en druk op Enter"
+
+#, fuzzy
+#~ msgid "Server"
+#~ msgstr ""
+#~ "Sla afbeeldingen op met originele datum/tijd van de server indien "
+#~ "beschikbaar"
+
+#, fuzzy
+#~ msgid "MYSQL Version"
+#~ msgstr "Datum versie"
+
+#, fuzzy
+#~ msgid "SQL Mode"
+#~ msgstr "AUTO MODE"
+
+#, fuzzy
+#~ msgid "PHP Version"
+#~ msgstr "Datum versie"
+
+#, fuzzy
+#~ msgid "PHP Safe Mode"
+#~ msgstr "AUTO MODE"
+
+#, fuzzy
+#~ msgid "Install"
+#~ msgstr ""
+#~ "Installeer de BID extentie voor Mozilla Firefox, deze is te vinden in de "
+#~ "[BID]/Firefox Extentie map."
+
+#, fuzzy
+#~ msgid "Post title"
+#~ msgstr "Paginatitel:"
+
+#, fuzzy
+#~ msgid "Enter the post title "
+#~ msgstr "Voer de registratiecode in:"
+
+#, fuzzy
+#~ msgid "Size of the image"
+#~ msgstr "Laad afbeelding..."
+
+#, fuzzy
+#~ msgid "NextCellent Gallery overview"
+#~ msgstr "Download deze gallerij met Bulk Image Downloader"
+
+#, fuzzy
+#~ msgid "Manage gallery"
+#~ msgstr "Exporteer Gallerij"
+
+#, fuzzy
+#~ msgid "Manage others gallery"
+#~ msgstr "Download deze gallerij met Bulk Image Downloader"
+
+#, fuzzy
+#~ msgid "Change style"
+#~ msgstr "Om deze instellingen te veranderen:"
+
+#, fuzzy
+#~ msgid "Change options"
+#~ msgstr "Om deze instellingen te veranderen:"
+
+#, fuzzy
+#~ msgid "Image rotated"
+#~ msgstr "Bekijk Afbeelding..."
+
+#, fuzzy
+#~ msgid "Error rotating thumbnail"
+#~ msgstr "Fout"
+
+#, fuzzy
+#~ msgid "Settings updated successfully"
+#~ msgstr "Om deze instellingen te veranderen:"
+
+#, fuzzy
+#~ msgid "Cache cleared"
+#~ msgstr "Database leeggemaakt"
+
+#, fuzzy
+#~ msgid "General settings"
+#~ msgstr "Instellingen"
+
+#, fuzzy
+#~ msgid "Gallery path"
+#~ msgstr "Exporteer Gallerij"
+
+#, fuzzy
+#~ msgid "Image files"
+#~ msgstr "Bestanden"
+
+#, fuzzy
+#~ msgid "Select graphic library"
+#~ msgstr "Selecteer Afbeeldingen"
+
+#, fuzzy
+#~ msgid "Media RSS feed"
+#~ msgstr "Maak nieuw geheim RSS-adres"
+
+#, fuzzy
+#~ msgid "Use permalinks"
+#~ msgstr "Gebruik deze proxy"
+
+#, fuzzy
+#~ msgid "Gallery slug:"
+#~ msgstr "Exporteer Gallerij"
+
+#, fuzzy
+#~ msgid "Start now"
+#~ msgstr "Log nu wissen"
+
+#, fuzzy
+#~ msgid "Related images"
+#~ msgstr "Geladen Afbeeldingen:"
+
+#, fuzzy
+#~ msgid "Add related images"
+#~ msgstr "Voeg URL toe"
+
+#, fuzzy
+#~ msgid "Match with"
+#~ msgstr "Corrigeer de Afbeelding link"
+
+#, fuzzy
+#~ msgid "0 will show all images"
+#~ msgstr "...alleen als alle afbeeldingen succesvol gedownload zijn"
+
+#, fuzzy
+#~ msgid "Image settings"
+#~ msgstr "Instellingen"
+
+#, fuzzy
+#~ msgid "Image quality"
+#~ msgstr "Bekijk Afbeelding..."
+
+#, fuzzy
+#~ msgid "Automatically resize"
+#~ msgstr "Check automatisch voor updates"
+
+#, fuzzy
+#~ msgid "Thumbnail settings"
+#~ msgstr "Instellingen"
+
+#, fuzzy
+#~ msgid "Thumbnail size"
+#~ msgstr "Thumbnail"
+
+#, fuzzy
+#~ msgid "Thumbnail quality"
+#~ msgstr "Thumbnail"
+
+#, fuzzy
+#~ msgid "Clear cache folder"
+#~ msgstr "Leeg Cache"
+
+#, fuzzy
+#~ msgid "Proceed now"
+#~ msgstr "Log nu wissen"
+
+#, fuzzy
+#~ msgid "Inline gallery"
+#~ msgstr "Exporteer Gallerij"
+
+#, fuzzy
+#~ msgid "Images per page"
+#~ msgstr "Aantal items per pagina"
+
+#, fuzzy
+#~ msgid "Enable slideshow"
+#~ msgstr "Activeer logging"
+
+#, fuzzy
+#~ msgid "Text to show:"
+#~ msgstr "Geschiedenis tonen"
+
+#, fuzzy
+#~ msgid "Show first"
+#~ msgstr "Geschiedenis tonen"
+
+#, fuzzy
+#~ msgid "Thumbnails"
+#~ msgstr "Thumbnails"
+
+#, fuzzy
+#~ msgid "Hidden images"
+#~ msgstr "Gevonden Afbeeldingen:"
+
+#, fuzzy
+#~ msgid "Sort options"
+#~ msgstr "Sorteer Lijst"
+
+#, fuzzy
+#~ msgid "Sort thumbnails"
+#~ msgstr "Thumbnails"
+
+#, fuzzy
+#~ msgid "File name"
+#~ msgstr "URL/Filename:"
+
+#, fuzzy
+#~ msgid "Alt / Title text"
+#~ msgstr "Paginatitel      : "
+
+#, fuzzy
+#~ msgid "Date / Time"
+#~ msgstr ""
+#~ "Sla afbeeldingen op met originele datum/tijd van de server indien "
+#~ "beschikbaar"
+
+#, fuzzy
+#~ msgid "Sort direction"
+#~ msgstr "Sorteer Lijst"
+
+#, fuzzy
+#~ msgid "JavaScript Thumbnail effect"
+#~ msgstr "Thumbnail URL"
+
+#, fuzzy
+#~ msgid "Position"
+#~ msgstr "Ongeldige regular expression opgegeven. Fout op positie"
+
+#, fuzzy
+#~ msgid "Use image as watermark"
+#~ msgstr "dagen om BID te gebruiken."
+
+#, fuzzy
+#~ msgid "URL to file"
+#~ msgstr "URL/Filename:"
+
+#, fuzzy
+#~ msgid "Use text as watermark"
+#~ msgstr "dagen om BID te gebruiken."
+
+#, fuzzy
+#~ msgid "Enable flash slideshow"
+#~ msgstr "Activeer logging"
+
+#, fuzzy
+#~ msgid "Search now"
+#~ msgstr "Log nu wissen"
+
+#, fuzzy
+#~ msgid "Shuffle mode"
+#~ msgstr "AUTO MODE"
+
+#, fuzzy
+#~ msgid "Show navigation bar"
+#~ msgstr "Weergave BID Instantie bij deze taak"
+
+#, fuzzy
+#~ msgid "Show loading icon"
+#~ msgstr "Laden…"
+
+#, fuzzy
+#~ msgid "Use watermark logo"
+#~ msgstr "dagen om BID te gebruiken."
+
+#, fuzzy
+#~ msgid "Stretch image"
+#~ msgstr "Bekijk Afbeelding..."
+
+#, fuzzy
+#~ msgid "none"
+#~ msgstr "(geen)"
+
+#, fuzzy
+#~ msgid "Rollover / Active Color"
+#~ msgstr "Stop actieve verbindingen..."
+
+#, fuzzy
+#~ msgid "Background music (URL)"
+#~ msgstr "URL             : "
+
+#, fuzzy
+#~ msgid "Reset settings"
+#~ msgstr "Instellingen"
+
+#, fuzzy
+#~ msgid "WARNING:"
+#~ msgstr "Waarschuwing"
+
+#, fuzzy
+#~ msgid "EXIF Data"
+#~ msgstr "Contextdata"
+
+#, fuzzy
+#~ msgid "No exif data"
+#~ msgstr "Contextdata"
+
+#, fuzzy
+#~ msgid "IPTC Data"
+#~ msgstr "Contextdata"
+
+#, fuzzy
+#~ msgid "XMP Data"
+#~ msgstr "Contextdata"
+
+#, fuzzy
+#~ msgid "No CSS file will be used."
+#~ msgstr "Bestand     : "
+
+#, fuzzy
+#~ msgid "Could not move file."
+#~ msgstr "Verplaats naar Boven"
+
+#, fuzzy
+#~ msgid "Could not save file."
+#~ msgstr "Save wachtwoord:"
+
+#, fuzzy
+#~ msgid "This CSS file will be applied:"
+#~ msgstr "Bestand     : "
+
+#, fuzzy
+#~ msgid "Editing %s"
+#~ msgstr "+%1$s meer"
+
+#, fuzzy
+#~ msgid "Browsing %s"
+#~ msgstr "Geschiedenis voor %s"
+
+#, fuzzy
+#~ msgid "(from the theme folder)"
+#~ msgstr "Probeer opnieuw verzamelmap:"
+
+#, fuzzy
+#~ msgid "Move file"
+#~ msgstr "Verplaats naar Boven"
+
+#, fuzzy
+#~ msgid "Version"
+#~ msgstr "Datum versie"
+
+#, fuzzy
+#~ msgid "File location"
+#~ msgstr "Kopieer afbeeldingslocatie naar clipboard"
+
+#, fuzzy
+#~ msgid "Update File"
+#~ msgstr "Bestand     : "
+
+#, fuzzy
+#~ msgid "Existing Tags"
+#~ msgstr "Pas toe op bestaande links"
+
+#, fuzzy
+#~ msgid "Go"
+#~ msgstr "Ga naar de volgende pagina"
+
+#, fuzzy
+#~ msgid "Sort Order:"
+#~ msgstr "Sorteer Lijst"
+
+#, fuzzy
+#~ msgid "Previous tags"
+#~ msgstr "Ga naar de vorige pagina"
+
+#, fuzzy
+#~ msgid "Next tags"
+#~ msgstr "Ga naar de volgende pagina"
+
+#, fuzzy
+#~ msgid "Rename Tag"
+#~ msgstr "Hernoem"
+
+#, fuzzy
+#~ msgid "Tag(s) to rename:"
+#~ msgstr "Hernoem"
+
+#, fuzzy
+#~ msgid "Rename"
+#~ msgstr "Hernoem"
+
+#, fuzzy
+#~ msgid "Delete Tag"
+#~ msgstr "Verwijder alles"
+
+#, fuzzy
+#~ msgid "Tag(s) to delete:"
+#~ msgstr "Verwijder de logfile?"
+
+#, fuzzy
+#~ msgid "Tag(s) to match:"
+#~ msgstr "Corrigeer de Afbeelding link"
+
+#, fuzzy
+#~ msgid "Slug(s) to set:"
+#~ msgstr "Geschiedenis voor %s"
+
+#, fuzzy
+#~ msgid "Recent pictures"
+#~ msgstr "Recente mappen"
+
+#, fuzzy
+#~ msgid "Select or search for a gallery"
+#~ msgstr "Selecteer Afbeeldingen"
+
+#, fuzzy
+#~ msgid "Type options"
+#~ msgstr "Licensietype:"
+
+#, fuzzy
+#~ msgid "Number of images"
+#~ msgstr ""
+#~ "Breng het aantal afbeeldingen uit de lijst terug tot 60 en probeer "
+#~ "opnieuw of registreer uw versie om deze limiet te verwijderen."
+
+#, fuzzy
+#~ msgid "Template name"
+#~ msgstr "Gebruikersnaam:"
+
+#, fuzzy
+#~ msgid "Select or enter album"
+#~ msgstr "Voer de registratiecode in:"
+
+#, fuzzy
+#~ msgid "Compact version"
+#~ msgstr "Datum versie"
+
+#, fuzzy
+#~ msgid "Extended version"
+#~ msgstr "Datum versie"
+
+#, fuzzy
+#~ msgid "Gallery display types"
+#~ msgstr "Exporteer Gallerij"
+
+#, fuzzy
+#~ msgid "Select a picture"
+#~ msgstr "Selecteer"
+
+#, fuzzy
+#~ msgid "Select or enter picture"
+#~ msgstr "Voer de registratiecode in:"
+
+#, fuzzy
+#~ msgid "Options"
+#~ msgstr ""
+#~ "Start IE, klik op Tools | Internet Opties | Geavanceerd, en neem de "
+#~ "instellingen al dan niet over. Klik op Toepassen om de instellingen op te "
+#~ "slaan."
+
+#, fuzzy
+#~ msgid "Web 2.0"
+#~ msgstr "Kan webpagina niet downloaden:"
+
+#, fuzzy
+#~ msgid "Link"
+#~ msgstr "Open doel met Bulk Image Downloader"
+
+#, fuzzy
+#~ msgid "The number of images that should be displayed."
+#~ msgstr "Aantal keren opnieuw te proberen (t.a.v. afbeeldingen):"
+
+#, fuzzy
+#~ msgid "Sort the images"
+#~ msgstr "Sorteer Lijst"
+
+#, fuzzy
+#~ msgid "Date taken"
+#~ msgstr "Datum File"
+
+#, fuzzy
+#~ msgid "User defined"
+#~ msgstr "Gebruikersnaam:"
+
+#, fuzzy
+#~ msgid "Select a template to display the images"
+#~ msgstr "Selecteer dezelfde afbeeldingen"
+
+#, fuzzy
+#~ msgid "Upgrading database…"
+#~ msgstr "Database leeggemaakt"
+
+#, fuzzy
+#~ msgid "Start upgrade now"
+#~ msgstr "Upgradeperiode verlengen"
+
+#, fuzzy
+#~ msgid "Upgrade complete."
+#~ msgstr "Sluit wanneer het downloaden klaar is"
+
+#, fuzzy
+#~ msgid "Enable import function"
+#~ msgstr "Activeer logging"
+
+#, fuzzy
+#~ msgid "Enable style selection"
+#~ msgstr "Keer Selectie om"
+
+#, fuzzy
+#~ msgid "Enable roles/capabilities"
+#~ msgstr "<< Activeer de wachtrij om de downloadtaken te starten"
+
+#, fuzzy
+#~ msgid "Invalid URL Provided."
+#~ msgstr "URL             : "
+
+#, fuzzy
+#~ msgid "Could not create Temporary file."
+#~ msgstr "Kon de map niet aanmaken:"
+
+#, fuzzy
+#~ msgid "Make"
+#~ msgstr ""
+#~ "Maak de downloadmapnamen uniek (de paginatitel wordt als mapnaam gebruikt)"
+
+#, fuzzy
+#~ msgid "Edit Status"
+#~ msgstr "Status"
+
+#, fuzzy
+#~ msgid "Date Created"
+#~ msgstr "Datum versie"
+
+#, fuzzy
+#~ msgid "Time Created"
+#~ msgstr "Starttijd          :"
+
+#, fuzzy
+#~ msgid "Location"
+#~ msgstr "Kopieer afbeeldingslocatie naar clipboard"
+
+#, fuzzy
+#~ msgid "Country code"
+#~ msgstr "Genereer code"
+
+#, fuzzy
+#~ msgid "Last modified"
+#~ msgstr "Datum gewijzigd"
+
+#, fuzzy
+#~ msgid "Image Width"
+#~ msgstr "Aantal Afbeeldingen"
+
+#, fuzzy
+#~ msgid "Image Height"
+#~ msgstr "Bekijk Afbeelding..."
+
+#, fuzzy
+#~ msgid "[Gallery not found]"
+#~ msgstr "Afbeelding niet gevonden"
+
+#, fuzzy
+#~ msgid "[Pictures not found]"
+#~ msgstr "Afbeelding niet gevonden"
+
+#, fuzzy
+#~ msgid "No new tag specified!"
+#~ msgstr "Maak nieuw geheim RSS-adres"
+
+#, fuzzy
+#~ msgid "No valid new tag."
+#~ msgstr "Geen geldige callback gevonden."
+
+#, fuzzy
+#~ msgid "%s slug(s) edited."
+#~ msgstr "Geschiedenis voor %s"
+
+#, fuzzy
+#~ msgid "Could not find gallery "
+#~ msgstr "Kon de map niet aanmaken:"
+
+#, fuzzy
+#~ msgid "This is no valid image file."
+#~ msgstr "Ongeldige afbeelding"
+
+#, fuzzy
+#~ msgid "Invalid image ID"
+#~ msgstr "Ongeldige afbeelding"
+
+#, fuzzy
+#~ msgid "Sorry, could not create the gallery"
+#~ msgstr "Kon de map niet aanmaken:"
+
+#, fuzzy
+#~ msgid "Invalid gallery ID"
+#~ msgstr "Ongeldige afbeelding"
+
+#, fuzzy
+#~ msgid "Sorry, could not create the album"
+#~ msgstr "Kon de map niet aanmaken:"
+
+#, fuzzy
+#~ msgid "Invalid album ID"
+#~ msgstr "Ongeldige afbeelding"
+
+#, fuzzy
+#~ msgid "Upgrade now"
+#~ msgstr "Log nu wissen"
+
+#, fuzzy
+#~ msgid "NextCellent Gallery / Images"
+#~ msgstr "Scan URL op afbeeldingen"
+
+#, fuzzy
+#~ msgid "loading"
+#~ msgstr "Laden…"
+
+#, fuzzy
+#~ msgid "[Album not found]"
+#~ msgstr "Afbeelding niet gevonden"
+
+#, fuzzy
+#~ msgid "[SinglePic not found]"
+#~ msgstr "Geen geldige callback gevonden."
+
+#, fuzzy
+#~ msgid "Related images for"
+#~ msgstr "Deselecteer Afbeeldingen"
+
+#, fuzzy
+#~ msgid "[View with PicLens]"
+#~ msgstr "Bekijk Thumbnail..."
+
+#, fuzzy
+#~ msgid "Next"
+#~ msgstr "Ga naar de volgende pagina"
+
+#, fuzzy
+#~ msgid "Meta data"
+#~ msgstr ""
+#~ "Dit is potentieel bruikbare metadata die de logger opgeslagen heeft."
+
+#, fuzzy
+#~ msgid "Camera / Type"
+#~ msgstr "Licensietype:"
+
+#, fuzzy
+#~ msgid "NextCellent Media RSS"
+#~ msgstr "Maak nieuw geheim RSS-adres"
+
+#, fuzzy
+#~ msgid "Link to the main image feed"
+#~ msgstr "Open doel met Bulk Image Downloader"
+
+#, fuzzy
+#~ msgid "Title:"
+#~ msgstr "Paginatitel:"
+
+#, fuzzy
+#~ msgid "Select Gallery:"
+#~ msgstr "Selecteer"
+
+#, fuzzy
+#~ msgid "All images"
+#~ msgstr "...alleen als alle afbeeldingen succesvol gedownload zijn"
+
+#, fuzzy
+#~ msgid "Show:"
+#~ msgstr "Laat Taak zien"
+
+#, fuzzy
+#~ msgid "recent added "
+#~ msgstr "Recente mappen"
+
+#, fuzzy
+#~ msgid "Select:"
+#~ msgstr "Selecteer"
+
+#, fuzzy
+#~ msgid "All galleries"
+#~ msgstr "Alle berichten"
+
+#, fuzzy
+#~ msgid "Gallery ID:"
+#~ msgstr "Exporteer Gallerij"
+
+#, fuzzy
+#~ msgid "Invalid MediaRSS command"
+#~ msgstr "Aantal keren opnieuw te proberen (t.a.v. ongeldige pagina's):"
