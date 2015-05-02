@@ -1,15 +1,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NextCellent\n"
-"POT-Creation-Date: 2015-04-13 21:17+0100\n"
-"PO-Revision-Date: 2015-04-13 21:18+0100\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/ngg-simple-"
+"history\n"
+"POT-Creation-Date: 2015-05-02 11:16:15+00:00\n"
+"PO-Revision-Date: 2015-05-02 13:20+0100\n"
 "Last-Translator: Niko Strijbol <strijbol.niko@gmail.com>\n"
 "Language-Team: \n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 1.7.6\n"
 "X-Poedit-KeywordsList: _n;__;_e;esc_attr_e;esc_html_e\n"
 "X-Poedit-Basepath: ./\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
@@ -17,60 +19,120 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
-#: ../loggers/NextCellentLogger.php:21
+#: loggers/NextCellentLogger.php:21
 msgid "Logs events from NextCellent"
 msgstr "Loggebeurtenissen van NextCellent"
 
-#: ../loggers/NextCellentLogger.php:24
+#: loggers/NextCellentLogger.php:24
 msgid "Created gallery \"{gallery_title}\""
 msgstr "Galerij \"{gallery_title}\" gemaakt"
 
-#: ../loggers/NextCellentLogger.php:25
+#: loggers/NextCellentLogger.php:25
 msgid "Updated gallery \"{gallery_title}\""
 msgstr "Galerij \"{gallery_title}\" bewerkt"
 
-#: ../loggers/NextCellentLogger.php:26 ../loggers/NextCellentLogger.php:167
+#: loggers/NextCellentLogger.php:26 loggers/NextCellentLogger.php:167
 msgid "Deleted gallery #{gallery_id}"
 msgstr "Galerij #{gallery_id} verwijderd"
 
-#: ../loggers/NextCellentLogger.php:27
+#: loggers/NextCellentLogger.php:27
 msgid "Added a new page to gallery \"{gallery_title}\""
 msgstr "Nieuwe pagina toegevoegd aan galerij \"{gallery_title}\""
 
-#: ../loggers/NextCellentLogger.php:28
+#: loggers/NextCellentLogger.php:28
 msgid "Added {image_count} image(s) to gallery \"{gallery_title}\""
 msgstr ""
 "{image_count} afbeelding(en) toegevoegd aan galerij \"{gallery_title}\""
 
-#: ../loggers/NextCellentLogger.php:29
+#: loggers/NextCellentLogger.php:29
 msgid "Added album \"{album_title}\" (# {album_id})"
 msgstr "Album \"{album_title}\" toegevoegd (# {album_id})"
 
-#: ../loggers/NextCellentLogger.php:30
+#: loggers/NextCellentLogger.php:30
 msgid "Updated album \"{album_title}\" (# {album_id})"
 msgstr "Album \"{album_title}\" bewerkt (# {album_id})"
 
-#: ../loggers/NextCellentLogger.php:31
+#: loggers/NextCellentLogger.php:31
 msgid "Deleted album #{album_id}"
 msgstr "Album #{album_id} verwijderd"
 
-#: ../loggers/NextCellentLogger.php:32 ../loggers/NextCellentLogger.php:163
+#: loggers/NextCellentLogger.php:32 loggers/NextCellentLogger.php:163
 msgid "Updated NextCellent options"
 msgstr "NextCellent-opties bijgewerkt"
 
-#: ../loggers/NextCellentLogger.php:33 ../loggers/NextCellentLogger.php:171
+#: loggers/NextCellentLogger.php:33 loggers/NextCellentLogger.php:171
 msgid "Deleted image #{image_id}"
 msgstr "Afbeelding #{image_id} verwijderd"
 
-#: ../loggers/NextCellentLogger.php:34
+#: loggers/NextCellentLogger.php:34
 msgid "Updated image {file_name} (gallery #{gallery_id})"
 msgstr "Afbeelding {file_name} (galerij #{gallery_id}) bewerkt"
 
-#: ../loggers/NextCellentLogger.php:122
+#: loggers/NextCellentLogger.php:38
+msgctxt "NextCellent logger: search"
+msgid "NextCellent"
+msgstr "NextCellent"
+
+#: loggers/NextCellentLogger.php:40
+msgctxt "NextCellent logger: search"
+msgid "Added gallery"
+msgstr "Galerij toegevoegd"
+
+#: loggers/NextCellentLogger.php:43
+msgctxt "NextCellent logger: search"
+msgid "Updated gallery"
+msgstr "Galerij bijgewerkt"
+
+#: loggers/NextCellentLogger.php:46
+msgctxt "NextCellent logger: search"
+msgid "Deleted gallery"
+msgstr "Galerij verwijderd"
+
+#: loggers/NextCellentLogger.php:49
+msgctxt "NextCellent logger: search"
+msgid "Added new page to gallery"
+msgstr "Nieuwe pagina voor galerij"
+
+#: loggers/NextCellentLogger.php:52
+msgctxt "NextCellent logger: search"
+msgid "Added images"
+msgstr "Afbeeldingen toegevoegd"
+
+#: loggers/NextCellentLogger.php:55
+msgctxt "NextCellent logger: search"
+msgid "Added album"
+msgstr "Albums toegevoegd"
+
+#: loggers/NextCellentLogger.php:58
+msgctxt "NextCellent logger: search"
+msgid "Updated album"
+msgstr "Album bijgewerkt"
+
+#: loggers/NextCellentLogger.php:61
+msgctxt "NextCellent logger: search"
+msgid "Deleted album"
+msgstr "Album verwijderd"
+
+#: loggers/NextCellentLogger.php:64
+msgctxt "NextCellent logger: search"
+msgid "Updated options"
+msgstr "Opties bijgewerkt"
+
+#: loggers/NextCellentLogger.php:67
+msgctxt "NextCellent logger: search"
+msgid "Deleted image"
+msgstr "Afbeelding verwijderd"
+
+#: loggers/NextCellentLogger.php:70
+msgctxt "NextCellent logger: search"
+msgid "Updated image"
+msgstr "Afbeeldingen bijgewerkt"
+
+#: loggers/NextCellentLogger.php:122
 msgid "Created gallery \"<a href=\"{gallery_link}\">{gallery_title}</a>\""
 msgstr "Galerij \"<a href=\"{gallery_link}\">{gallery_title}</a>\" gemaakt"
 
-#: ../loggers/NextCellentLogger.php:129
+#: loggers/NextCellentLogger.php:129
 msgid ""
 "Added {image_count} image(s) to gallery \"<a href="
 "\"{gallery_link}\">{gallery_title}</a>\""
@@ -78,35 +140,35 @@ msgstr ""
 "{image_count} afbeelding(en) toegevoegd aan galerij \"<a href="
 "\"{gallery_link}\">{gallery_title}</a>\""
 
-#: ../loggers/NextCellentLogger.php:136
+#: loggers/NextCellentLogger.php:136
 msgid "Updated gallery \"<a href=\"{gallery_link}\">{gallery_title}</a>\""
 msgstr "Galerij \"<a href=\"{gallery_link}\">{gallery_title}</a>\" bewerkt"
 
-#: ../loggers/NextCellentLogger.php:143
+#: loggers/NextCellentLogger.php:143
 msgid ""
 "Added new page to gallery \"<a href=\"{gallery_link}\">{gallery_title}</a>\""
 msgstr ""
 "Nieuwe pagina toegevoegd aan galerij \"<a href="
 "\"{gallery_link}\">{gallery_title}</a>\""
 
-#: ../loggers/NextCellentLogger.php:149
+#: loggers/NextCellentLogger.php:149
 msgid ""
 "Added album \"<a href=\"{album_link}\">{album_title}</a>\" (# {album_id})"
 msgstr ""
 "Album \"<a href=\"{album_link}\">{album_title}</a>\" toegevoegd (# "
 "{album_id})"
 
-#: ../loggers/NextCellentLogger.php:155
+#: loggers/NextCellentLogger.php:155
 msgid ""
 "Updated album \"<a href=\"{album_link}\">{album_title}</a>\" (# {album_id})"
 msgstr ""
 "Album \"<a href=\"{album_link}\">{album_title}</a>\" bewerkt (# {album_id})"
 
-#: ../loggers/NextCellentLogger.php:159
+#: loggers/NextCellentLogger.php:159
 msgid "Deleted album # {album_id}"
 msgstr "Album # {album_id} verwijderd"
 
-#: ../loggers/NextCellentLogger.php:178
+#: loggers/NextCellentLogger.php:178
 msgid ""
 "Updated image <a href=\"{url}\">{file_name}</a> (gallery <a href="
 "\"{gallery_link}\">{gallery_title}</a>)"
@@ -114,14 +176,29 @@ msgstr ""
 "Afbeelding <a href=\"{url}\">{file_name}</a> (galerij <a href="
 "\"{gallery_link}\">{gallery_title}</a>) bewerkt"
 
-#: ../nextcellent-simplehistory.php:78
-#, php-format
+#: nextcellent-simplehistory.php:78
 msgid "NGG History requires PHP 5.3 or later (you have version %s)."
 msgstr "NGG History vereist PHP 5.3 of later (je hebt versie %s)."
 
-#: ../nextcellent-simplehistory.php:97
+#: nextcellent-simplehistory.php:97
 msgid "NGG History requires SimpleHistory and NextCellent in order to work."
 msgstr "NGG History vereist SimpleHistory en NextCellent om te werken."
+
+#. Plugin Name of the plugin/theme
+msgid "NGG SimpleHistory"
+msgstr "NGG SimpleHistory"
+
+#. Plugin URI of the plugin/theme
+msgid "https://bitbucket.org/niknetniko/ngg-simplehistory"
+msgstr "https://bitbucket.org/niknetniko/ngg-simplehistory"
+
+#. Description of the plugin/theme
+msgid "Adds NextCellent (and soon NextGEN) integration to SimpleHistory."
+msgstr "Voegt NextCellent-integratie toe aan SimpleHistory."
+
+#. Author of the plugin/theme
+msgid "niknetniko"
+msgstr "niknetniko"
 
 #, fuzzy
 #~ msgid "About"
@@ -148,10 +225,6 @@ msgstr "NGG History vereist SimpleHistory en NextCellent om te werken."
 #~ msgstr "Verwijder overgeslagen files en fouten uit de ljist"
 
 #, fuzzy
-#~ msgid "Upload images"
-#~ msgstr "Gevonden Afbeeldingen:"
-
-#, fuzzy
 #~ msgid "New gallery"
 #~ msgstr "Exporteer Gallerij"
 
@@ -174,10 +247,6 @@ msgstr "NGG History vereist SimpleHistory en NextCellent om te werken."
 #, fuzzy
 #~ msgid "Name"
 #~ msgstr "URL/Filename:"
-
-#, fuzzy
-#~ msgid "Add gallery"
-#~ msgstr "Voeg toe aan Wachtrij"
 
 #, fuzzy
 #~ msgid "Upload a ZIP File"
@@ -296,10 +365,6 @@ msgstr "NGG History vereist SimpleHistory en NextCellent om te werken."
 #~ msgstr "Klik hier om verder te doen in Trialmodus"
 
 #, fuzzy
-#~ msgid "Select album"
-#~ msgstr "Selecteer"
-
-#, fuzzy
 #~ msgid "No album selected"
 #~ msgstr "Verwijder geselecteerde afbeeldingen"
 
@@ -314,20 +379,12 @@ msgstr "NGG History vereist SimpleHistory en NextCellent om te werken."
 #~ msgstr "Verwijder de logfile?"
 
 #, fuzzy
-#~ msgid "Add new album"
-#~ msgstr "Voeg toe aan Wachtrij"
-
-#, fuzzy
 #~ msgid "Add"
 #~ msgstr "Voeg URL toe"
 
 #, fuzzy
 #~ msgid "[Show all]"
 #~ msgstr "Alle berichten"
-
-#, fuzzy
-#~ msgid "Select gallery"
-#~ msgstr "Selecteer"
 
 #, fuzzy
 #~ msgid "No album selected!"
@@ -452,10 +509,6 @@ msgstr "NGG History vereist SimpleHistory en NextCellent om te werken."
 #, fuzzy
 #~ msgid "Resize images"
 #~ msgstr "Gevonden Afbeeldingen:"
-
-#, fuzzy
-#~ msgid "Add new gallery"
-#~ msgstr "Voeg URL toe"
 
 #, fuzzy
 #~ msgid "Search Images"
@@ -680,10 +733,6 @@ msgstr "NGG History vereist SimpleHistory en NextCellent om te werken."
 #~ msgstr "+%1$s meer"
 
 #, fuzzy
-#~ msgid "NextCellent Gallery"
-#~ msgstr "Exporteer Gallerij"
-
-#, fuzzy
 #~ msgid "No gallery"
 #~ msgstr "Exporteer Gallerij"
 
@@ -894,14 +943,6 @@ msgstr "NGG History vereist SimpleHistory en NextCellent om te werken."
 #, fuzzy
 #~ msgid "Start now"
 #~ msgstr "Log nu wissen"
-
-#, fuzzy
-#~ msgid "Related images"
-#~ msgstr "Geladen Afbeeldingen:"
-
-#, fuzzy
-#~ msgid "Add related images"
-#~ msgstr "Voeg URL toe"
 
 #, fuzzy
 #~ msgid "Match with"
@@ -1122,10 +1163,6 @@ msgstr "NGG History vereist SimpleHistory en NextCellent om te werken."
 #~ msgstr "Kopieer afbeeldingslocatie naar clipboard"
 
 #, fuzzy
-#~ msgid "Update File"
-#~ msgstr "Bestand     : "
-
-#, fuzzy
 #~ msgid "Existing Tags"
 #~ msgstr "Pas toe op bestaande links"
 
@@ -1180,10 +1217,6 @@ msgstr "NGG History vereist SimpleHistory en NextCellent om te werken."
 #, fuzzy
 #~ msgid "Select or search for a gallery"
 #~ msgstr "Selecteer Afbeeldingen"
-
-#, fuzzy
-#~ msgid "Type options"
-#~ msgstr "Licensietype:"
 
 #, fuzzy
 #~ msgid "Number of images"

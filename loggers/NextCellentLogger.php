@@ -18,56 +18,56 @@ class NextCellentLogger extends SimpleLogger {
 		$arr_info = array(
 			"slug"  => "nextcellent-logger",
 			"name" => "NextCellent Logger",
-			"description" => __( "Logs events from NextCellent", 'ngg-history'),
+			"description" => __( "Logs events from NextCellent", 'ngg-simple-history'),
 			"capability" => "edit_pages",
 			"messages" => array(
-				'ngg_gallery_created'    => __('Created gallery "{gallery_title}"', 'ngg-history'),
-				'ngg_gallery_updated'    => __('Updated gallery "{gallery_title}"', 'ngg-history'),
-				'ngg_gallery_deleted'    => __('Deleted gallery #{gallery_id}', 'ngg-history'),
-				'ngg_gallery_new_page'   => __('Added a new page to gallery "{gallery_title}"', 'ngg-history'),
-				'ngg_images_added'       => __('Added {image_count} image(s) to gallery "{gallery_title}"', 'ngg-history'),
-				'ngg_album_added'        => __('Added album "{album_title}" (# {album_id})', 'ngg-history'),
-				'ngg_album_updated'      => __('Updated album "{album_title}" (# {album_id})', 'ngg-history'),
-				'ngg_album_deleted'      => __('Deleted album #{album_id}', 'ngg-history'),
-				'ngg_options_updated'    => __('Updated NextCellent options', 'ngg-history'),
-				'ngg_image_deleted'      => __('Deleted image #{image_id}', 'ngg-history'),
-				'ngg_image_updated'      => __('Updated image {file_name} (gallery #{gallery_id})', 'ngg-history')
+				'ngg_gallery_created'    => __('Created gallery "{gallery_title}"', 'ngg-simple-history'),
+				'ngg_gallery_updated'    => __('Updated gallery "{gallery_title}"', 'ngg-simple-history'),
+				'ngg_gallery_deleted'    => __('Deleted gallery #{gallery_id}', 'ngg-simple-history'),
+				'ngg_gallery_new_page'   => __('Added a new page to gallery "{gallery_title}"', 'ngg-simple-history'),
+				'ngg_images_added'       => __('Added {image_count} image(s) to gallery "{gallery_title}"', 'ngg-simple-history'),
+				'ngg_album_added'        => __('Added album "{album_title}" (# {album_id})', 'ngg-simple-history'),
+				'ngg_album_updated'      => __('Updated album "{album_title}" (# {album_id})', 'ngg-simple-history'),
+				'ngg_album_deleted'      => __('Deleted album #{album_id}', 'ngg-simple-history'),
+				'ngg_options_updated'    => __('Updated NextCellent options', 'ngg-simple-history'),
+				'ngg_image_deleted'      => __('Deleted image #{image_id}', 'ngg-simple-history'),
+				'ngg_image_updated'      => __('Updated image {file_name} (gallery #{gallery_id})', 'ngg-simple-history')
 			),
 			"labels" => array(
 				"search" => array(
-					"label" => _x("NextCellent", "NextCellent logger: search", "ngg-history"),
+					"label" => _x("NextCellent", "NextCellent logger: search", "ngg-simple-history"),
 					"options" => array(
-						_x("Added gallery", "NextCellent logger: search", "ngg-history") => array(
+						_x("Added gallery", "NextCellent logger: search", "ngg-simple-history") => array(
 							"ngg_gallery_created"
 						),
-						_x("Updated gallery", "NextCellent logger: search", "ngg-history") => array(
+						_x("Updated gallery", "NextCellent logger: search", "ngg-simple-history") => array(
 							"ngg_gallery_updated"
 						),
-						_x("Deleted gallery", "NextCellent logger: search", "ngg-history") => array(
+						_x("Deleted gallery", "NextCellent logger: search", "ngg-simple-history") => array(
 							"ngg_gallery_deleted"
 						),
-						_x("Added new page to gallery", "NextCellent logger: search", "ngg-history") => array(
+						_x("Added new page to gallery", "NextCellent logger: search", "ngg-simple-history") => array(
 							"ngg_gallery_new_page"
 						),
-						_x("Added images", "NextCellent logger: search", "ngg-history") => array(
+						_x("Added images", "NextCellent logger: search", "ngg-simple-history") => array(
 							"ngg_images_added"
 						),
-						_x("Added album", "NextCellent logger: search", "ngg-history") => array(
+						_x("Added album", "NextCellent logger: search", "ngg-simple-history") => array(
 							"ngg_album_added"
 						),
-						_x("Updated album", "NextCellent logger: search", "ngg-history") => array(
+						_x("Updated album", "NextCellent logger: search", "ngg-simple-history") => array(
 							"ngg_album_updated"
 						),
-						_x("Deleted album", "NextCellent logger: search", "ngg-history") => array(
+						_x("Deleted album", "NextCellent logger: search", "ngg-simple-history") => array(
 							"ngg_album_deleted"
 						),
-						_x("Updated options", "NextCellent logger: search", "ngg-history") => array(
+						_x("Updated options", "NextCellent logger: search", "ngg-simple-history") => array(
 							"ngg_options_updated"
 						),
-						_x("Deleted image", "NextCellent logger: search", "ngg-history") => array(
+						_x("Deleted image", "NextCellent logger: search", "ngg-simple-history") => array(
 							"ngg_image_deleted"
 						),
-						_x("Updated image", "NextCellent logger: search", "ngg-history") => array(
+						_x("Updated image", "NextCellent logger: search", "ngg-simple-history") => array(
 							"ngg_image_updated"
 						)
 					)
@@ -119,63 +119,63 @@ class NextCellentLogger extends SimpleLogger {
 				$gallery_id = $context["gallery_id"];
 				$context["gallery_link"] = $this->get_gallery_url( $gallery_id );
 
-				$message = __( 'Created gallery "<a href="{gallery_link}">{gallery_title}</a>"', "ngg-history" );
+				$message = __( 'Created gallery "<a href="{gallery_link}">{gallery_title}</a>"', "ngg-simple-history" );
 
 			} elseif ( $message_key == 'ngg_images_added' ) {
 
 				$gallery_id = $context["gallery_id"];
 				$context["gallery_link"] = $this->get_gallery_url( $gallery_id );
 
-				$message = __( 'Added {image_count} image(s) to gallery "<a href="{gallery_link}">{gallery_title}</a>"', "ngg-history" );
+				$message = __( 'Added {image_count} image(s) to gallery "<a href="{gallery_link}">{gallery_title}</a>"', "ngg-simple-history" );
 
 			} elseif ( $message_key == 'ngg_gallery_updated' ) {
 
 				$gallery_id = $context["gallery_id"];
 				$context["gallery_link"] = $this->get_gallery_url( $gallery_id );
 
-				$message = __( 'Updated gallery "<a href="{gallery_link}">{gallery_title}</a>"', "ngg-history" );
+				$message = __( 'Updated gallery "<a href="{gallery_link}">{gallery_title}</a>"', "ngg-simple-history" );
 
 			} elseif ( $message_key == 'ngg_gallery_new_page' ) {
 
 				$gallery_id = $context["gallery_id"];
 				$context["gallery_link"] = $this->get_gallery_url( $gallery_id );
 
-				$message = __( 'Added new page to gallery "<a href="{gallery_link}">{gallery_title}</a>"', "ngg-history" );
+				$message = __( 'Added new page to gallery "<a href="{gallery_link}">{gallery_title}</a>"', "ngg-simple-history" );
 
 			} elseif ( $message_key == 'ngg_album_added' ) {
 
 				$context["album_link"] = $this->get_album_url();
 
-				$message = __( 'Added album "<a href="{album_link}">{album_title}</a>" (# {album_id})', "ngg-history" );
+				$message = __( 'Added album "<a href="{album_link}">{album_title}</a>" (# {album_id})', "ngg-simple-history" );
 
 			} elseif ( $message_key == 'ngg_album_updated') {
 
 				$context["album_link"] = $this->get_album_url();
 
-				$message = __( 'Updated album "<a href="{album_link}">{album_title}</a>" (# {album_id})', "ngg-history" );
+				$message = __( 'Updated album "<a href="{album_link}">{album_title}</a>" (# {album_id})', "ngg-simple-history" );
 
 			} elseif ($message_key == 'ngg_album_deleted' ) {
 
-				$message = __( 'Deleted album # {album_id}', "ngg-history" );
+				$message = __( 'Deleted album # {album_id}', "ngg-simple-history" );
 
 			} elseif ( $message_key == 'ngg_options_updated' ) {
 
-				$message = __('Updated NextCellent options', 'ngg-history');
+				$message = __('Updated NextCellent options', 'ngg-simple-history');
 
 			} elseif ( $message_key == 'ngg_gallery_deleted' ) {
 
-				$message = __('Deleted gallery #{gallery_id}', 'ngg-history');
+				$message = __('Deleted gallery #{gallery_id}', 'ngg-simple-history');
 
 			} elseif ( $message_key == 'ngg_image_deleted' ) {
 
-				$message = __('Deleted image #{image_id}', 'ngg-history');
+				$message = __('Deleted image #{image_id}', 'ngg-simple-history');
 
 			} elseif ( $message_key == 'ngg_image_updated' ) {
 
 				$gallery_id = $context["gallery_id"];
 				$context["gallery_link"] = $this->get_gallery_url( $gallery_id );
 
-				$message = __( 'Updated image <a href="{url}">{file_name}</a> (gallery <a href="{gallery_link}">{gallery_title}</a>)', "ngg-history" );
+				$message = __( 'Updated image <a href="{url}">{file_name}</a> (gallery <a href="{gallery_link}">{gallery_title}</a>)', "ngg-simple-history" );
 
 			}
 

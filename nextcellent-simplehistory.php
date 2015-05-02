@@ -36,7 +36,6 @@ class NGG_Simple_History {
 	private static $instance = null;
 	private $plugin_path;
 	private $plugin_url;
-	private $text_domain = 'ngg-history';
 
 	/**
 	 * Creates or returns an instance of this class.
@@ -76,7 +75,7 @@ class NGG_Simple_History {
 	private function check_php_version() {
 		if ( version_compare( phpversion(), "5.3", "<" ) ) {
 			$notice = new Admin_Error( printf( __( 'NGG History requires PHP 5.3 or later (you have version %s).',
-				'ngg-history' ), phpversion() ), 'error' );
+				'ngg-simple-history' ), phpversion() ), 'error' );
 			$notice->show();
 
 			return false;
@@ -95,7 +94,7 @@ class NGG_Simple_History {
 			return true;
 		} else {
 			$notice = new Admin_Error( __( 'NGG History requires SimpleHistory and NextCellent in order to work.',
-				'ngg-history' ) );
+				'ngg-simple-history' ) );
 			$notice->show();
 
 			return false;
