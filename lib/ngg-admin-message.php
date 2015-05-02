@@ -20,6 +20,13 @@ abstract class Admin_Message {
 	 * Show the message.
 	 */
 	public function show() {
+		add_action( 'all_admin_notices', array( $this, 'get_output' ) );
+	}
+
+	/**
+	 * Print the message.
+	 */
+	public function get_output() {
 		$class = $this->get_class();
 		echo '<div class="' . $class . '"><p>' . $this->message . '</p></div>';
 	}

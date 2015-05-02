@@ -4,7 +4,7 @@ Plugin Name: NGG SimpleHistory
 Plugin URI: https://bitbucket.org/niknetniko/ngg-simplehistory
 Description: Adds NextCellent (and soon NextGEN) integration to SimpleHistory.
 Author: niknetniko
-Version: 1.0.0
+Version: 1.0.2
 License: GPL2 or later.
 
 Copyright (c) 2015 niknetniko
@@ -24,6 +24,7 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
+include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 /**
  * Load support libraries
  */
@@ -36,6 +37,7 @@ class NGG_Simple_History {
 	private $plugin_path;
 	private $plugin_url;
 	private $text_domain = 'ngg-history';
+
 	/**
 	 * Creates or returns an instance of this class.
 	 */
@@ -44,8 +46,10 @@ class NGG_Simple_History {
 		if ( null == self::$instance ) {
 			self::$instance = new self;
 		}
+
 		return self::$instance;
 	}
+
 	/**
 	 * Initializes the plugin by setting localization, hooks, filters, and administrative functions.
 	 */
@@ -70,9 +74,11 @@ class NGG_Simple_History {
 	 * @return bool If the version is OK or not.
 	 */
 	private function check_php_version() {
-		if ( version_compare( phpversion(), "5.3", "<") ) {
-			$notice = new Admin_Error(printf(	__( 'NGG History requires PHP 5.3 or later (you have version %s).', 'ngg-history' ), phpversion() ), 'error' );
+		if ( version_compare( phpversion(), "5.3", "<" ) ) {
+			$notice = new Admin_Error( printf( __( 'NGG History requires PHP 5.3 or later (you have version %s).',
+				'ngg-history' ), phpversion() ), 'error' );
 			$notice->show();
+
 			return false;
 		} else {
 			return true;
@@ -85,11 +91,13 @@ class NGG_Simple_History {
 	 * @return bool True if it is.
 	 */
 	private function check_for_simple_history() {
-		if(  is_plugin_active('simple-history/index.php') ) {
+		if ( is_plugin_active( 'simple-history/index.php' ) && class_exists( 'nggLoader' ) ) {
 			return true;
 		} else {
-			$notice = new Admin_Error( __( 'NGG History requires the SimpleHistory plugin in order to work.', 'ngg-history' ) );
+			$notice = new Admin_Error( __( 'NGG History requires SimpleHistory and NextCellent in order to work.',
+				'ngg-history' ) );
 			$notice->show();
+
 			return false;
 		}
 	}
@@ -103,8 +111,8 @@ class NGG_Simple_History {
 	 */
 	private function run_plugin() {
 
-		if( $this->check_requisites() ) {
-			add_filter("simple_history/loggers_files", array($this, "load_files"));
+		if ( $this->check_requisites() ) {
+			add_filter( "simple_history/loggers_files", array( $this, "load_files" ) );
 		}
 	}
 
@@ -118,7 +126,8 @@ class NGG_Simple_History {
 	 * @return array The result.
 	 */
 	public function load_files( $files ) {
-		$files = array_merge($files, $this->get_loggers());
+		$files = array_merge( $files, $this->get_loggers() );
+
 		return $files;
 	}
 
@@ -129,8 +138,9 @@ class NGG_Simple_History {
 	 */
 	private function get_loggers() {
 		return array(
-			__DIR__  . "/loggers/NextCellentLogger.php",
+			__DIR__ . "/loggers/NextCellentLogger.php",
 		);
 	}
 }
+
 NGG_Simple_History::get_instance();
