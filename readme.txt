@@ -2,7 +2,7 @@
 Contributors: niknetniko
 Tags: history, log, changes, changelog, admin, syslog, feed, activity, stream, nextgen, nextcellent
 Requires at least: 3.7.0
-Tested up to: 4.2.1
+Tested up to: 4.3
 Stable tag: 1.1.0
 
 Add Simple History integration for NextCellent.
