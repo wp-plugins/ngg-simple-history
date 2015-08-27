@@ -1,0 +1,185 @@
+# Copyright (C) 2015 NGG SimpleHistory
+# This file is distributed under the same license as the NGG SimpleHistory package.
+msgid ""
+msgstr ""
+"Project-Id-Version: NGG SimpleHistory 1.0.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/ngg-simple-"
+"history\n"
+"POT-Creation-Date: 2015-05-02 21:16:43+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: loggers/NextCellentLogger.php:21
+msgid "Logs events from NextCellent"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:24
+msgid "Created gallery \"{gallery_title}\""
+msgstr ""
+
+#: loggers/NextCellentLogger.php:25
+msgid "Updated gallery \"{gallery_title}\""
+msgstr ""
+
+#: loggers/NextCellentLogger.php:26 loggers/NextCellentLogger.php:167
+msgid "Deleted gallery #{gallery_id}"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:27
+msgid "Added a new page to gallery \"{gallery_title}\""
+msgstr ""
+
+#: loggers/NextCellentLogger.php:28
+msgid "Added {image_count} image(s) to gallery \"{gallery_title}\""
+msgstr ""
+
+#: loggers/NextCellentLogger.php:29
+msgid "Added album \"{album_title}\" (# {album_id})"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:30
+msgid "Updated album \"{album_title}\" (# {album_id})"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:31
+msgid "Deleted album #{album_id}"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:32 loggers/NextCellentLogger.php:163
+msgid "Updated NextCellent options"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:33 loggers/NextCellentLogger.php:171
+msgid "Deleted image #{image_id}"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:34
+msgid "Updated image {file_name} (gallery #{gallery_id})"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:38
+msgctxt "NextCellent logger: search"
+msgid "NextCellent"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:40
+msgctxt "NextCellent logger: search"
+msgid "Added gallery"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:43
+msgctxt "NextCellent logger: search"
+msgid "Updated gallery"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:46
+msgctxt "NextCellent logger: search"
+msgid "Deleted gallery"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:49
+msgctxt "NextCellent logger: search"
+msgid "Added new page to gallery"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:52
+msgctxt "NextCellent logger: search"
+msgid "Added images"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:55
+msgctxt "NextCellent logger: search"
+msgid "Added album"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:58
+msgctxt "NextCellent logger: search"
+msgid "Updated album"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:61
+msgctxt "NextCellent logger: search"
+msgid "Deleted album"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:64
+msgctxt "NextCellent logger: search"
+msgid "Updated options"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:67
+msgctxt "NextCellent logger: search"
+msgid "Deleted image"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:70
+msgctxt "NextCellent logger: search"
+msgid "Updated image"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:122
+msgid "Created gallery \"<a href=\"{gallery_link}\">{gallery_title}</a>\""
+msgstr ""
+
+#: loggers/NextCellentLogger.php:129
+msgid ""
+"Added {image_count} image(s) to gallery \"<a href=\"{gallery_link}\">"
+"{gallery_title}</a>\""
+msgstr ""
+
+#: loggers/NextCellentLogger.php:136
+msgid "Updated gallery \"<a href=\"{gallery_link}\">{gallery_title}</a>\""
+msgstr ""
+
+#: loggers/NextCellentLogger.php:143
+msgid ""
+"Added new page to gallery \"<a href=\"{gallery_link}\">{gallery_title}</a>\""
+msgstr ""
+
+#: loggers/NextCellentLogger.php:149
+msgid ""
+"Added album \"<a href=\"{album_link}\">{album_title}</a>\" (# {album_id})"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:155
+msgid ""
+"Updated album \"<a href=\"{album_link}\">{album_title}</a>\" (# {album_id})"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:159
+msgid "Deleted album # {album_id}"
+msgstr ""
+
+#: loggers/NextCellentLogger.php:178
+msgid ""
+"Updated image <a href=\"{url}\">{file_name}</a> (gallery <a href="
+"\"{gallery_link}\">{gallery_title}</a>)"
+msgstr ""
+
+#: nextcellent-simplehistory.php:77
+msgid "NGG History requires PHP 5.3 or later (you have version %s)."
+msgstr ""
+
+#: nextcellent-simplehistory.php:96
+msgid "NGG History requires SimpleHistory and NextCellent in order to work."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "NGG SimpleHistory"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://bitbucket.org/niknetniko/ngg-simplehistory"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Adds NextCellent (and soon NextGEN) integration to SimpleHistory."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "niknetniko"
+msgstr ""
