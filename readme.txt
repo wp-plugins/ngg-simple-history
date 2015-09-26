@@ -1,4 +1,4 @@
-=== NGG Simple History ===
+=== NextCellent Simple History ===
 Contributors: niknetniko
 Tags: history, log, changes, changelog, admin, syslog, feed, activity, stream, nextgen, nextcellent
 Requires at least: 3.7.0
@@ -9,7 +9,7 @@ Add Simple History integration for NextCellent.
 
 == Description ==
 
-NGG Simple History logs events related to NextCellent in the [Simple History](https://wordpress.org/plugins/simple-history/) plugin.
+NextCellent Simple History logs events related to NextCellent in the [Simple History](https://wordpress.org/plugins/simple-history/) plugin.
 
 Currently, it logs following events:
 
@@ -29,7 +29,7 @@ Note: this only works with NextCellent Gallery, not with NextGEN Gallery.
 
 #### Languages
 
-So far NGG SimpleHistory is available to:
+So far NextCellent Simple History is available to:
 
 * Dutch
 * English

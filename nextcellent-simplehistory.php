@@ -1,31 +1,34 @@
 <?php
-/*
-Plugin Name: NGG SimpleHistory
-Plugin URI: https://bitbucket.org/niknetniko/ngg-simplehistory
-Description: Adds NextCellent (and soon NextGEN) integration to SimpleHistory.
-Author: niknetniko
-Version: 1.1.1
-Text Domain: ngg-simple-history
-Domain Path: /lang
-
-License: GPL2 or later.
-
-Copyright (c) 2015 niknetniko
-
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-*/
+/**
+ * --COPYRIGHT NOTICE------------------------------------------------------------------------------
+ *
+ * This file is part of NextCellent Simple History.
+ *
+ * NextCellent Simple History is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * NextCellent Simple History is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with NextCellent Simple History.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * ------------------------------------------------------------------------------------------------
+ *
+ * @wordpress-plugin
+ * Plugin Name:     NextCellent Simple History
+ * Plugin URI:      https://bitbucket.org/niknetniko/ngg-simplehistory
+ * Description:     Adds NextCellent support for Simple History.
+ * Version:         1.1.1
+ * Author:          niknetniko
+ * Text Domain:     ngg-simple-history
+ * Domain Path:     /lang
+ * License:         GPL-2.0+
+ */
 
 include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 /**
