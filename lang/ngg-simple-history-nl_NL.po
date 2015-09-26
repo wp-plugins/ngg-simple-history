@@ -1,13 +1,13 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: NextCellent\n"
+"Project-Id-Version: NGG Simple History 1.0.3\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/ngg-simple-"
 "history\n"
-"POT-Creation-Date: 2015-05-02 11:16:15+00:00\n"
-"PO-Revision-Date: 2015-05-02 13:20+0100\n"
+"POT-Creation-Date: 2015-05-02 21:16:43+00:00\n"
+"PO-Revision-Date: 2015-05-02 23:17+0100\n"
 "Last-Translator: Niko Strijbol <strijbol.niko@gmail.com>\n"
-"Language-Team: \n"
-"Language: en\n"
+"Language-Team: Niko Strijbol <strijbol.niko@gmail.com>\n"
+"Language: nl_BE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -176,11 +176,11 @@ msgstr ""
 "Afbeelding <a href=\"{url}\">{file_name}</a> (galerij <a href="
 "\"{gallery_link}\">{gallery_title}</a>) bewerkt"
 
-#: nextcellent-simplehistory.php:78
+#: nextcellent-simplehistory.php:77
 msgid "NGG History requires PHP 5.3 or later (you have version %s)."
 msgstr "NGG History vereist PHP 5.3 of later (je hebt versie %s)."
 
-#: nextcellent-simplehistory.php:97
+#: nextcellent-simplehistory.php:96
 msgid "NGG History requires SimpleHistory and NextCellent in order to work."
 msgstr "NGG History vereist SimpleHistory en NextCellent om te werken."
 

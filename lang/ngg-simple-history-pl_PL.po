@@ -1,15 +1,17 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: NGG SimpleHistory\n"
-"POT-Creation-Date: 2015-01-23 21:12+0100\n"
-"PO-Revision-Date: 2015-04-01 12:40-0700\n"
+"Project-Id-Version: NGG SimpleHistory 1.0.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/ngg-simple-"
+"history\n"
+"POT-Creation-Date: 2015-05-02 21:16:43+00:00\n"
+"PO-Revision-Date: 2015-05-02 16:23-0700\n"
 "Last-Translator: Frank P. Walentynowicz <frankpw@fw2s.com>\n"
 "Language-Team: Frank P. Walentynowicz <frankpw@fw2s.com>\n"
-"Language: pl\n"
+"Language: pl_PL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 1.7.6\n"
 "X-Poedit-KeywordsList: _n;__;_e;esc_attr_e;esc_html_e\n"
 "X-Poedit-Basepath: ./\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
@@ -18,62 +20,122 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
-#: ../loggers/NextCellentLogger.php:21
+#: loggers/NextCellentLogger.php:21
 msgid "Logs events from NextCellent"
 msgstr "Loguje zdarzenia z NextCellent"
 
-#: ../loggers/NextCellentLogger.php:24
+#: loggers/NextCellentLogger.php:24
 msgid "Created gallery \"{gallery_title}\""
 msgstr "Utworzono galerię \"{gallery_title}\""
 
-#: ../loggers/NextCellentLogger.php:25
+#: loggers/NextCellentLogger.php:25
 msgid "Updated gallery \"{gallery_title}\""
 msgstr "Zaktualizowano galerię \"{gallery_title}\""
 
-#: ../loggers/NextCellentLogger.php:26 ../loggers/NextCellentLogger.php:167
+#: loggers/NextCellentLogger.php:26 loggers/NextCellentLogger.php:167
 msgid "Deleted gallery #{gallery_id}"
 msgstr "Usunięto galerię # {gallery_id}"
 
-#: ../loggers/NextCellentLogger.php:27
+#: loggers/NextCellentLogger.php:27
 msgid "Added a new page to gallery \"{gallery_title}\""
 msgstr "Dodano nową stronę do galerii \"{gallery_title}\""
 
-#: ../loggers/NextCellentLogger.php:28
+#: loggers/NextCellentLogger.php:28
 msgid "Added {image_count} image(s) to gallery \"{gallery_title}\""
 msgstr "Dodano obrazków do galerii \"{gallery_title}\" - {image_count}"
 
-#: ../loggers/NextCellentLogger.php:29
+#: loggers/NextCellentLogger.php:29
 msgid "Added album \"{album_title}\" (# {album_id})"
 msgstr ""
 "Dodano album \"<a href=\"{album_link}\">{album_title}</a>\" (# {album_id})"
 
-#: ../loggers/NextCellentLogger.php:30
+#: loggers/NextCellentLogger.php:30
 msgid "Updated album \"{album_title}\" (# {album_id})"
 msgstr ""
 "Zaktualizaowano album \"<a href=\"{album_link}\">{album_title}</a>\" (# "
 "{album_id})"
 
-#: ../loggers/NextCellentLogger.php:31
+#: loggers/NextCellentLogger.php:31
 msgid "Deleted album #{album_id}"
 msgstr "Usunięto album # {album_id}"
 
-#: ../loggers/NextCellentLogger.php:32 ../loggers/NextCellentLogger.php:163
+#: loggers/NextCellentLogger.php:32 loggers/NextCellentLogger.php:163
 msgid "Updated NextCellent options"
 msgstr "Zaktualizowano opcje NextCellent"
 
-#: ../loggers/NextCellentLogger.php:33 ../loggers/NextCellentLogger.php:171
+#: loggers/NextCellentLogger.php:33 loggers/NextCellentLogger.php:171
 msgid "Deleted image #{image_id}"
 msgstr "Usunięto obrazek #{image_id}"
 
-#: ../loggers/NextCellentLogger.php:34
+#: loggers/NextCellentLogger.php:34
 msgid "Updated image {file_name} (gallery #{gallery_id})"
 msgstr "Zaktualizowano obrazek {nazwa_pliku} (galeria #{gallery_id})"
 
-#: ../loggers/NextCellentLogger.php:122
+#: loggers/NextCellentLogger.php:38
+msgctxt "NextCellent logger: search"
+msgid "NextCellent"
+msgstr "NextCellent"
+
+#: loggers/NextCellentLogger.php:40
+msgctxt "NextCellent logger: search"
+msgid "Added gallery"
+msgstr "Dodano galerię"
+
+#: loggers/NextCellentLogger.php:43
+msgctxt "NextCellent logger: search"
+msgid "Updated gallery"
+msgstr "Zaktualizowano galerię"
+
+#: loggers/NextCellentLogger.php:46
+msgctxt "NextCellent logger: search"
+msgid "Deleted gallery"
+msgstr "Usunięto galerię"
+
+#: loggers/NextCellentLogger.php:49
+msgctxt "NextCellent logger: search"
+msgid "Added new page to gallery"
+msgstr "Dodano nową stronę do galerii"
+
+#: loggers/NextCellentLogger.php:52
+msgctxt "NextCellent logger: search"
+msgid "Added images"
+msgstr "Dodano obrazki"
+
+#: loggers/NextCellentLogger.php:55
+msgctxt "NextCellent logger: search"
+msgid "Added album"
+msgstr "Dodano album"
+
+#: loggers/NextCellentLogger.php:58
+msgctxt "NextCellent logger: search"
+msgid "Updated album"
+msgstr "Zaktualizowano album"
+
+#: loggers/NextCellentLogger.php:61
+msgctxt "NextCellent logger: search"
+msgid "Deleted album"
+msgstr "Usunięto album"
+
+#: loggers/NextCellentLogger.php:64
+msgctxt "NextCellent logger: search"
+msgid "Updated options"
+msgstr "Zaktualizowano opcje"
+
+#: loggers/NextCellentLogger.php:67
+msgctxt "NextCellent logger: search"
+msgid "Deleted image"
+msgstr "Usunięto obrazek"
+
+#: loggers/NextCellentLogger.php:70
+msgctxt "NextCellent logger: search"
+msgid "Updated image"
+msgstr "Zaktualizowano obrazek"
+
+#: loggers/NextCellentLogger.php:122
 msgid "Created gallery \"<a href=\"{gallery_link}\">{gallery_title}</a>\""
 msgstr "Utworzono galerię \"<a href=\"{gallery_link}\">{gallery_title}</a>\""
 
-#: ../loggers/NextCellentLogger.php:129
+#: loggers/NextCellentLogger.php:129
 msgid ""
 "Added {image_count} image(s) to gallery \"<a href="
 "\"{gallery_link}\">{gallery_title}</a>\""
@@ -81,36 +143,36 @@ msgstr ""
 "Dodano obrazków do galerii \"<a href=\"{gallery_link}\">{gallery_title}</a>"
 "\" - {image_count}"
 
-#: ../loggers/NextCellentLogger.php:136
+#: loggers/NextCellentLogger.php:136
 msgid "Updated gallery \"<a href=\"{gallery_link}\">{gallery_title}</a>\""
 msgstr ""
 "Zaktualizowano galerię \"<a href=\"{gallery_link}\">{gallery_title}</a>\""
 
-#: ../loggers/NextCellentLogger.php:143
+#: loggers/NextCellentLogger.php:143
 msgid ""
 "Added new page to gallery \"<a href=\"{gallery_link}\">{gallery_title}</a>\""
 msgstr ""
 "Dodano nową stronę do galerii \"<a href=\"{gallery_link}\">{gallery_title}</"
 "a>\""
 
-#: ../loggers/NextCellentLogger.php:149
+#: loggers/NextCellentLogger.php:149
 msgid ""
 "Added album \"<a href=\"{album_link}\">{album_title}</a>\" (# {album_id})"
 msgstr ""
 "Dodano album \"<a href=\"{album_link}\">{album_title}</a>\" (# {album_id})"
 
-#: ../loggers/NextCellentLogger.php:155
+#: loggers/NextCellentLogger.php:155
 msgid ""
 "Updated album \"<a href=\"{album_link}\">{album_title}</a>\" (# {album_id})"
 msgstr ""
 "Zaktualizaowano album \"<a href=\"{album_link}\">{album_title}</a>\" (# "
 "{album_id})"
 
-#: ../loggers/NextCellentLogger.php:159
+#: loggers/NextCellentLogger.php:159
 msgid "Deleted album # {album_id}"
 msgstr "Usunięto album # {album_id}"
 
-#: ../loggers/NextCellentLogger.php:178
+#: loggers/NextCellentLogger.php:178
 msgid ""
 "Updated image <a href=\"{url}\">{file_name}</a> (gallery <a href="
 "\"{gallery_link}\">{gallery_title}</a>)"
@@ -118,14 +180,34 @@ msgstr ""
 "Zaktualizowano obraek <a href=\"{url}\">{nazwa_pliku}</a> (galeria <a href="
 "\"{gallery_link}\">{gallery_title}</a>)"
 
-#: ../nextcellent-simplehistory.php:73
-#, php-format
+#: nextcellent-simplehistory.php:77
 msgid "NGG History requires PHP 5.3 or later (you have version %s)."
 msgstr "Historia NGG wymaga wersji PHP 5.3 lub nowszej (masz wersję %s)."
 
-#: ../nextcellent-simplehistory.php:89
-msgid "NGG History requires the SimpleHistory plugin in order to work."
-msgstr "Historia NGG wymaga wtyczki SimpleHistory, aby działać."
+#: nextcellent-simplehistory.php:96
+msgid "NGG History requires SimpleHistory and NextCellent in order to work."
+msgstr ""
+"NGG History wymaga aktywnych wtyczek Simple History i NextCellent Gallery, "
+"aby pracować."
+
+#. Plugin Name of the plugin/theme
+msgid "NGG SimpleHistory"
+msgstr "NGG Simple History"
+
+#. Plugin URI of the plugin/theme
+msgid "https://bitbucket.org/niknetniko/ngg-simplehistory"
+msgstr "https://bitbucket.org/niknetniko/ngg-simplehistory"
+
+#. Description of the plugin/theme
+msgid "Adds NextCellent (and soon NextGEN) integration to SimpleHistory."
+msgstr "Dodaje NextCellent (a wkrótce NextGEN) integrację z Simple History."
+
+#. Author of the plugin/theme
+msgid "niknetniko"
+msgstr "niknetniko"
+
+#~ msgid "NGG History requires the SimpleHistory plugin in order to work."
+#~ msgstr "Historia NGG wymaga wtyczki SimpleHistory, aby działać."
 
 #, fuzzy
 #~ msgid "About"
